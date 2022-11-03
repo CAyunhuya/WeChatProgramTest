@@ -1,0 +1,17 @@
+.red{
+  margin: 10rpx;
+  font-size: x-large;
+  background-color: aqua;
+}
+#red{
+  margin: 10rpx;
+  font-size: x-large;
+  background-color: aqua;
+}
+view{
+  color: brown;
+}
+input{
+  color: rgb(230, 157, 11);
+  background-color: blue;
+}

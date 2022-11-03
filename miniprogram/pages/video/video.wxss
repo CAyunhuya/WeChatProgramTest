@@ -1,0 +1,7 @@
+/* pages/video/video.wxss */
+.page-body{
+  padding: 20rpx;
+}
+.page-body-button{
+  margin-top: 40rpx;
+}

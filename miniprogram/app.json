@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/list/list",
+    "pages/wxif/wxif",
+    "pages/index/index",
+    "pages/getOpenId/index",
+    "pages/event/event",
+    "pages/flex/flex",
+    "pages/media/media",
+    "pages/map/map",
+    "pages/canvas/canvas",
+    "pages/open/open",
+    "pages/video/video",
+    "pages/tiao/tiao"
+  ],
+  "window": {
+    "backgroundColor": "#00ffff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff3300",
+    "navigationBarTitleText": "云开发小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#00008b",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "数据绑定",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表渲染",
+        "iconPath": "images/like.png",
+        "selectedIconPath": "images/like1.png"
+      },
+      {
+        "pagePath": "pages/wxif/wxif",
+        "text": "条件渲染",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine1.png"
+      },
+      {
+        "pagePath": "pages/event/event",
+        "text": "事件",
+        "iconPath": "images/event.png",
+        "selectedIconPath": "images/event1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

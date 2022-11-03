@@ -1,0 +1,11 @@
+/* pages/map/map.wxss */
+.page-body{
+  padding: 20rpx;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.page-body-button {
+  margin-bottom: 30rpx;
+}

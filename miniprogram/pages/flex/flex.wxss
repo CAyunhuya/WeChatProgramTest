@@ -1,0 +1,26 @@
+/* pages/flex/flex.wxss */
+.father{
+  background-color: cadetblue;
+  height: 600rpx;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  /*align-items:flex-start ;*/
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.item{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: indianred;
+  flex:1;
+  /*flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;*/
+}
+.flex-wrp{display: flex;}
+.flex-grow{flex-grow: 1;}
+.bc_green{background: green;height: 100px;}
+.bc_red{background: red;height: 100px;}
+.bc_blue{background: blue;height: 100px;}
+.bc_gray{background: gray;height: 100px;}

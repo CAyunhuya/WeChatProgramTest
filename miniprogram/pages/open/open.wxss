@@ -1,0 +1,8 @@
+/* pages/open/open.wxss */
+.main{
+  padding: 40rpx;
+}
+.user-avatar{
+  width: 100rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,3 @@
+<!--pages/tiao/tiao.wxml-->
+<!--个人版不支持-->
+<web-view src="https://mp.weixin.qq.com/"></web-view>

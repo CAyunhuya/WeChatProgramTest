@@ -1,0 +1,18 @@
+<!--pages/list/list.wxml-->
+<view wx:for="{{array}}">
+{{index}}:{{item.message}}
+</view>
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+{{idx}}:{{itemName.message}}
+</view>
+<view wx:for="{{myArray}}" wx:for-index="myIndex" wx:for-item="myItem">
+<block wx:for="{{myItem}}" wx:for-index="subIndex" wx:for-item="sunItem">
+{{sunItem}}
+</block>
+</view>
+<block wx:for="{{[1,2,3]}}">
+<view>{{index}}:</view>
+<view>{{item}}</view>
+</block>
+
+<switch wx:for="{{myArray1}}" wx:key="unique" style="display: block;">{{item.id}}</switch>

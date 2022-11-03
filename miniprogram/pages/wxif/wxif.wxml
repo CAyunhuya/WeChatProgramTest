@@ -1,0 +1,13 @@
+<!--pages/wxif/wxif.wxml-->
+<view wx:if="!{{showText}}">显示内容</view>
+<view wx:if="{{length>5}}">1</view>
+<view wx:elif="{{length>2}}">2</view>
+<view wx:else>3</view>
+<block wx:if="true">
+<view>view1</view>
+<view>view2</view>
+</block>
+
+<view>
+        <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    </view>

@@ -1,0 +1,13 @@
+<!--pages/event/event.wxml-->
+<button bindtap="tiaoFlex">跳转flex</button>
+<button bindtap="tiaoMei">跳转图片</button>
+<button bindtap="tiaoV">跳转视频</button>
+<button bindtap="tiaoTu">跳转地图</button>
+<button bindtap="tiaoHua">跳转画布</button>
+<button bindtap="tiaoKai">跳转开放功能</button>
+<button bindtap="dijian">数据递减</button>
+<button bindtap="chuancan" data-number="1122">传参</button>
+<view class="red" style="background:chocolate;">{{shu}}</view>
+<view id="red">{{can}}</view>
+<input bindinput="getInput"/>
+<view id="red">{{shuru}}</view>

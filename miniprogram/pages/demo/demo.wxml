@@ -1,0 +1,21 @@
+<!--pages/demo/demo.wxml.wxml-->
+<!--pages/demo/demo.wxml-->
+
+<view>{{openId}}</view>
+<button bindtap='getOpenId'>获取openId</button>
+<view>1</view>
+<view> {{ message }} </view>
+<view>2</view>
+<view id="item-{{id}}" style="border: {{border}}"></view>
+<view>3</view>
+<view wx:if="{{!condition}}">123</view>
+<view>4</view>
+<checkbox checked="{{false}}"></checkbox>
+<view hidden="{{shoeText ? '显示内容' :'不显示内容'}}"></view>
+<view>{{a+b}}+1+{{c}}+d=?</view>
+<view wx:if="!{{length>5}}">123</view>
+<view>{{"hello"+name}}"</view>
+<view>{{object.key}} {{array[0]}}</view>
+<view wx:for="{{[zero,1,2,3,4]}}">{{item}}</view>
+<!--<template is="objectCombine" data="{{name:value1,age:value2}}"></template>
+<template is="objectCombine" data="{{...obj1,...obj2,e:5}}"></template>-->
